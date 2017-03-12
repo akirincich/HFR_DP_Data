@@ -1,0 +1,16 @@
+1         ! 1 Enable All Image Output: 0=off ; 1=enable
+1         ! 2 Latest Radial Plot: 0=off ; 1=on
+1         ! 3 Latest Elliptical Plot: 0=off ; 1=on
+1         ! 4 Latest Spectra Power Map:  0=off ; 1=on
+1         ! 5 Latest Spectra Range Plot:  0=off ; 1=on
+1         ! 6 Latest Wave Plot:  0=off ; 1=on
+0         ! 7 Serial Radial Plot: 0=off ; 1=on
+0         ! 8 Serial RadialShort Plot: 0=off ; 1=on
+0         ! 9 Serial Elliptical Plot: 0=off ; 1=on
+0         !10 Serial EllipticalShort Plot: 0=off ; 1=on
+0         !11 Serial Spectra Power Map:  0=off ; 1=on
+0         !12 Serial Spectra Range Plot:  0=off ; 1=on
+0         !13 Serial Wave Plot:  0=off ; 1=on
+3 5 7     !14 Spectra Range Plot Range cells
+3 5 7     !15 Wave Plots Range cells
+7d        !16 Wave Plots Latest Time Span follow with d=days h=hours

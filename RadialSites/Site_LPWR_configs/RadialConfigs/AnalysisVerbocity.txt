@@ -1,0 +1,30 @@
+0     !  1 CheckForSpectra
+0     !  2 SpectraSlider
+1     !  3 SpectraToRadial
+1     !  4 RadialSlider
+1     !  5 RadialMerger
+1     !  6 RadialArchiver
+1     !  7 SpectraToWave (Spectral)
+1     !  8 WaveArchiver (Spectral)
+1     !  9 SpectraArchiver
+1     ! 10 WaveForFive (Spectral)
+1     ! 11 RadialDiagnostic
+1     ! 12 WaveModelForFive
+1     ! 13 SpectraToWavesModel or SpectraToWaveModel
+1     ! 14 WaveModelArchiver
+1     ! 15 WaveModelSlider
+1     ! 16 FirstOrderLimit
+0     ! 17 SpectraPointExtractor
+1     ! 18 SpectraToEllipticals
+1     ! 19 EllipticalsSlider
+1     ! 20 EllipticalsArchiver
+1     ! 21 EllipticalsDiagnostic
+1     ! 22 EllipticalsMerger
+0     ! 23 Reserved
+0     ! 24 Reserved
+0     ! 25 Reserved
+0     ! 26 Reserved
+0     ! 27 Reserved
+0     ! 28 Reserved
+0     ! 29 Reserved
+0     ! 30 Reserved

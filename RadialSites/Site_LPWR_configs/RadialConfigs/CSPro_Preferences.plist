@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alternate input spectra settings</key>
+	<dict>
+		<key>Alternate band width KHz</key>
+		<real>0.0</real>
+		<key>Alternate frequency MHz</key>
+		<real>0.0</real>
+		<key>Alternate sweep direction is up</key>
+		<false/>
+		<key>Alternate sweep frequency Hz</key>
+		<real>0.0</real>
+		<key>Force the alternate settings</key>
+		<false/>
+	</dict>
+	<key>Automatic plot settings</key>
+	<dict>
+		<key>Hide Doppler bin noise-dBm table</key>
+		<false/>
+		<key>Jpeg output selection</key>
+		<string>Jpeg ;; NoJpeg Jpeg JpegWithDateTime</string>
+		<key>Kind of data to plot</key>
+		<string>Averaged ;; Unaveraged Averaged Intermediate</string>
+		<key>Maximum plotted dBm</key>
+		<real>-90</real>
+		<key>Number of smoothing points</key>
+		<integer>4</integer>
+		<key>Pict output selection</key>
+		<string>NoPict ;; NoPict Pict PictWithDateTime</string>
+		<key>Plot 3 range cell stack</key>
+		<false/>
+		<key>Range cell(s) to plot</key>
+		<string>4 8 21</string>
+		<key>Show the plot window</key>
+		<false/>
+		<key>Smooth the data</key>
+		<false/>
+		<key>Type of plot selection</key>
+		<string>dBm ;; dBm Phase 6dBm</string>
+	</dict>
+	<key>Full folder paths</key>
+	<dict>
+		<key>AppName_LastInOut file folder</key>
+		<string>/Codar/SeaSonde/Data/Processing/</string>
+		<key>AppName_LogFile file folder</key>
+		<string>/Codar/SeaSonde/Data/Processing/</string>
+		<key>Autoplot images folder</key>
+		<string>/Codar/SeaSonde/Data/Pictures/Latest/</string>
+		<key>Header file folder</key>
+		<string>/Codar/SeaSonde/Configs/RadialConfigs/</string>
+		<key>Input files folder</key>
+		<string>/Codar/SeaSonde/Data/Spectra/SpectraSeries/</string>
+		<key>Output files folder</key>
+		<string>/Codar/SeaSonde/Data/Spectra/SpectraToProcess/</string>
+		<key>Plot images folder</key>
+		<string>/Codar/SeaSonde/Data/Pictures/Spectra/</string>
+		<key>Processed input files folder</key>
+		<string>/Codar/SeaSonde/Data/Spectra/SpectraSeriesProcessed/</string>
+	</dict>
+	<key>Global</key>
+	<dict>
+		<key>Date and time</key>
+		<string>April 17, 2013 11:59:35 PM GMT</string>
+		<key>Startup state</key>
+		<string>Normal ;; Normal HoldProcessing HoldAndWriteAll</string>
+	</dict>
+	<key>Input-ouput selections</key>
+	<dict>
+		<key>Delete the input files</key>
+		<false/>
+		<key>Input is Range files</key>
+		<false/>
+		<key>Output file format as version 5</key>
+		<false/>
+		<key>Output file name with an extension</key>
+		<true/>
+		<key>Output the averaged cross spectra</key>
+		<true/>
+		<key>Output the raw cross spectra</key>
+		<false/>
+		<key>Require intermediate averages to match</key>
+		<true/>
+		<key>Save the intermediate averages</key>
+		<true/>
+	</dict>
+	<key>Processing</key>
+	<dict>
+		<key>Active antenna channels</key>
+		<string>1  2  3</string>
+		<key>Averaging period minutes</key>
+		<real>25</real>
+		<key>Averaging period seconds</key>
+		<real>0.0</real>
+		<key>Base name of output files</key>
+		<string>CSS</string>
+		<key>First range cell to process</key>
+		<integer>1</integer>
+		<key>Last range cell to process</key>
+		<integer>1023</integer>
+		<key>Output period minutes</key>
+		<real>15</real>
+		<key>Output period seconds</key>
+		<real>0.0</real>
+		<key>Remove output DC region</key>
+		<false/>
+	</dict>
+	<key>Ship removal settings</key>
+	<dict>
+		<key>Added time steps</key>
+		<integer>1</integer>
+		<key>Baseline average minutes</key>
+		<integer>180</integer>
+		<key>Enable ship interference removal</key>
+		<true/>
+		<key>Extend ship region toward DC</key>
+		<false/>
+		<key>Extend to this #bins from DC</key>
+		<integer>4</integer>
+		<key>Interference threshold value dB</key>
+		<real>12</real>
+		<key>Max Hz of ship region</key>
+		<real>0.0</real>
+		<key>Max time gap minutes before restart</key>
+		<integer>180</integer>
+		<key>Range windowing factor</key>
+		<real>1.2999999523162842</real>
+		<key>Ship position factor</key>
+		<real>2</real>
+		<key>Time series overlap factor</key>
+		<real>0.5</real>
+		<key>Time step to begin ship removal</key>
+		<integer>8</integer>
+	</dict>
+</dict>
+</plist>
