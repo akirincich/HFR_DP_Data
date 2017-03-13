@@ -1,5 +1,5 @@
 # HFR_DP_Data
-Data for sample
+Data for sample calculations
 
 This Repo contains an example folder/subfolder setup needed to utilize HFR_DP 
 as an initial exercise for running the software. Included are the Meas_patt.txt
