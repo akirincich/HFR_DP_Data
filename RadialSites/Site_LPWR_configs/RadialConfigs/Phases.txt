@@ -1,3 +1,0 @@
- 125.0 155.0              ! 1 Antenna Phase Corrections A13, A23
-! Note: Actual Phases must be calculated after the SeaSonde is set up
-! and entered here for proper SeaSonde operation.
