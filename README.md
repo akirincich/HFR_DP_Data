@@ -7,11 +7,13 @@ and header.txt files as well as a *.css file.
 
 The full subdirectory structure for each site=XXXX formulated as such
 
-~/SITE_XXXX_css   %where the spectral files will be found
-~/SITE_XXXX_config   %where the header and pattern data will be found
-~/SITE_XXXX   %where the resulting 'Radial Metrics' output will go
-~/SITE_XXXX_radave   %where the resulting 'Radial Short' will go
-~/SITE_XXXX_radavelluv %where the resulting ascii file of the 'Radial Short' will go...suitable for transmission to the national archive
+~/SITE_XXXX_css         %input spectral files
+~/SITE_XXXX_config      %input  header and pattern files
+~/SITE_XXXX             %output 'Radial Metrics'  mat file
+~/SITE_XXXX_radave      %output  'Radial Short'  mat file
+~/SITE_XXXX_radave_lluv %output  'Radial Short' ascii lluv format file
+                        % suitable for transmission to the national archive
+~/SITE_XXXX_pics        %output jpeg images of the processing results
 
 
 Started: March 2017

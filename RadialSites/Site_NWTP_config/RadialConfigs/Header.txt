@@ -1,0 +1,30 @@
+0 NWTP "Medium range"        ! 1 Site#, 4Char SiteCode,"Site Desc."
+41¡14.519'N,070¡06.421'W     ! 2 Receiver Latitude,Longitude
+262                          ! 3 Antenna L1 Bearing DegNCW
+96 1.4827 1.4827             ! 4 Radial Last Range Cell. Alt. RangeCell Info, 1st (km), Step (km)
+90.0                         ! 5 Obsolete Baseline Angle. Always 90.0
+1.0                          ! 6 Obsolete CSS Average for FirstOrderCalc
+13.500000                    ! 7 Alt. Tx Center Freq MHz
+1024                         ! 8 Alt. Doppler Points
+0.00195312                   ! 9 Alt. Doppler Resolution in Hz
+UTC 0.000 Atlantic/Reykjavik !10 Time Zone Abbr., fromUTC, CityZone
+95 4                        !11 Max. Velocity Limit, Num Pts Smoothing For FirstOrderCalc
+20.00 1 80.00                !12 Factor Down Peak limit 1st order Radials , 0 = no 2nd order, Factor down 1rst order Waves
+0                            !13 Reserved
+8 17                         !14 Wave Process Range Cell, Estim. Max Wave Period (seconds)
+10.00 4.00  10.00 3.00       !15 Radials:Factor down peak nulls, Noise factor, Waves:Factor down peak nulls, Noise factor
+0 0 0                        !16 Obsolete (Was Keep CSA,Rad,CSSs)
+1.00 1.00  1.00 1.00         !17 Ampl Factors Ideal:Amp1,Amp2  Patt:Amp1,Amp2
+330 120                      !18 Coastline angles degNCW RightHand CCW LeftHand.
+40 20 2  15 15 25 15         !19 Music params eigrat,sigprat,diagrat;  Gaussian Smooth Med Width deg, Smear Width, Vel Thresh
+__                           !20 Classic Rad,Tot Filename date,space chars (Use '-_' or '__')
+ 55 30 0 0                   !21 Rads:  Coverage min., Output Interval min., Interval Offset min., 0=Watch Timespan
+5.0                          !22 Bearing Resolution
+ 55 30 0 0                   !23 WaveModel:  Coverage min., Output Interval min., Interval Offset min., 0=Watch Timespan
+1.00                         !24 Ionosphere Noise Removal Factor
+0                            !25 Doppler Noise Limit
+270 090                      !26 WaveModel Wave Direction limits degNCW Ang1 CCW Ang2.
+1 6                          !27 Radial First Range Cell, WaveModel First Range Cell.
+360                          !28 Amplitude Factor Averaging Period min.
+10                           !29 WaveModel Minimum Dopper Points
+2.1 10.0 30.0  30.0 3.0      !30 RadialFiller RCLim AngLim CurLim  AngGap RngGap
